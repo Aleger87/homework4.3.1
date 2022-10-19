@@ -40,7 +40,7 @@ public abstract class Animal {
 
     public void setName(String name) {
         if ("Animal".equals(getName()) || getName() == null){
-            if (this.name == null || name.isEmpty() || name.isBlank()) {
+            if (name == null || name.isEmpty() || name.isBlank()) {
                 this.name = "Animal";
             }else{
                 this.name = name;
