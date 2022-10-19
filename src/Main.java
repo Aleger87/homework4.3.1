@@ -10,10 +10,12 @@ public class Main {
         gazelle.sleep();
         gazelle.move();
 
-        Herbivore giraffe = new Herbivore("Мелман", 5, "Савана", 40, "Листья деревьев");
+        Herbivore giraffe = new Herbivore(null, 5, "Савана", 40, "Листья деревьев");
         giraffe.eat(giraffe.getTypeFood());
+        giraffe.setName("Мелман");
         giraffe.sleep();
         giraffe.move();
+
 
 
 
